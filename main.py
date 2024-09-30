@@ -1,8 +1,7 @@
 import schedule
 from datetime import datetime, timedelta
 import telebot
-
-TOKEN = '6776059462:AAEEg-Fhqt7PzMGrtYiwlT0VczClRMNCMXo'
+from api_constants import *
 
 # Создаем экземпляр бота
 bot = telebot.TeleBot(TOKEN)
