@@ -6,7 +6,7 @@ import threading
 from api_constants import *
 
 # Создаем экземпляр бота
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
 # Список учеников с временем уроков (дни недели и время в формате 'HH:MM')
 students = [
